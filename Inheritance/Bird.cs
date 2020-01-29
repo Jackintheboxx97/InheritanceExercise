@@ -13,7 +13,10 @@ namespace Inheritance
             Legs = 2;
             Habitat = "Nest";
         }
-        
+        public bool HasWings { get; set; }
+        public bool HasBeak { get; set; }
+        public bool CanSpeakHuman { get; set; }
+        public string FeatherColor { get; set; }
 
     }
 }

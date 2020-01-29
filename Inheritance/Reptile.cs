@@ -14,6 +14,10 @@ namespace Inheritance
             Habitat = "Islands";
 
         }
+        public string Eats { get; set; }
+        public bool ColdBlooded { get; set; }
+        public bool HasTail { get; set; }
+        public bool EyeSlant { get; set; }
 
     }
 }
