@@ -2,10 +2,24 @@
 
 namespace Inheritance
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            var redRobin = new Bird();
+            var komodoDragon = new Reptile();
+            Console.WriteLine($"Birds use their wings to {redRobin.Mobility}.");
+            Console.WriteLine($"Komoda Dragons use their limbs to {komodoDragon.Mobility} across land.");
+            
+            
+           
+
+
+
+            
+            
+            
+            
             // TODO Be sure to follow best practice when creating your classes
 
             // Create a class Animal
@@ -34,6 +48,9 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+
+
+
         }
     }
 }
